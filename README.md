@@ -31,7 +31,7 @@ run `npm start` to start the application
 ![screenshot](./src/assets/screenshot/profile.png)
 
 ## Deploy
-https://p-her.github.io/about
+https://p-her.github.io/react-portfolio/
 
 ## Questions
 For any questions, find me on github at: https://github.com/p-her
