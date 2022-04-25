@@ -12,34 +12,31 @@ function Profile() {
     <div className=' container profile-section'>
         <h1>Profile</h1>
         <div className='row align-item-center'>
-          
-
             <div className='col my-3 profile-body'>
                 <a href='https://p-her.github.io/run-buddy/' target='_blank' rel='noreferrer'> 
-                
                 <img src={runbuddy} alt='' width='250' height='150'/>
                 </a>
-
             </div>
 
             <div className='col my-3 profile-body'>
-                <a href='https://p-her.github.io/run-buddy/' target='_blank' rel='noreferrer'> 
+                <a href='https://p-her.github.io/weather-dashboard/' target='_blank' rel='noreferrer'> 
                 
                 <img src={weatherDashboard} alt='' width='250' height='150'/>
+               
                 </a>
 
             </div>
 
 
             <div className='col my-3 profile-body'>
-                <a href='https://p-her.github.io/run-buddy/' target='_blank' rel='noreferrer'> 
+                <a href='https://p-her.github.io/photo-port/' target='_blank' rel='noreferrer'> 
                 
                 <img src={photoBooth} alt='' width='250' height='150'/>
                 </a>
 
             </div>
             <div className='col my-3 profile-body'>
-                <a href='https://p-her.github.io/run-buddy/' target='_blank' rel='noreferrer'> 
+                <a href='https://p-her.github.io/work-day-schedular/' target='_blank' rel='noreferrer'> 
                 
                 <img src={workDay} alt='' width='250' height='150'/>
                 </a>
@@ -47,18 +44,12 @@ function Profile() {
             </div>
 
             <div className='col  my-3 footer-mg'>
-                <a href='https://p-her.github.io/run-buddy/' target='_blank' rel='noreferrer'> 
+                <a href=' https://p-her.github.io/Food-Festival/' target='_blank' rel='noreferrer'> 
                 
                 <img src={foodFestival} alt='' width='250' height='150'/>
                 </a>
-
             </div>
-
         </div>
-   
-    
-         
-
     </div>
    
   )
