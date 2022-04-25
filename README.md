@@ -10,7 +10,8 @@
 
 4. [Technologies](#technologies)
 5. [Screenshot](#screenshot)
-6. [Questions](#questions)
+6. [Deploy](#deploy)
+7. [Questions](#questions)
 ## Title
 React Portfolio
 
@@ -28,6 +29,9 @@ run `npm start` to start the application
 ![screenshot](./src/assets/screenshot/contact.png)
 ![screenshot](./src/assets/screenshot/portfolio.png)
 ![screenshot](./src/assets/screenshot/profile.png)
+
+## Deploy
+https://p-her.github.io/about
 
 ## Questions
 For any questions, find me on github at: https://github.com/p-her
