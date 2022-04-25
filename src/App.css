@@ -112,16 +112,14 @@ body{
 
 }
 
-.contact-form {
-    float: left;
- 
-}
+
 
 
 .button {
     background-color: #1e6deb;
     border-radius: 5px ;
     color: white;
+    padding: 5px 10px;
 }
 
 .button:hover{
@@ -146,10 +144,13 @@ body{
 }
 
 .icons{
-    /* margin-top: 15px; */
+    opacity: 0.9;
     padding-bottom: 1.0rem;
     color: #292961;
 
+}
+.icons:hover {
+    /* opacity: 1; */
 }
 
 .footer-mg {
@@ -165,4 +166,13 @@ input[type=text],input[type=email], select, textarea {
     border: 1px solid #ccc; 
     border-radius: 4px; 
     box-sizing: border-box;
+}
+
+a {
+    opacity: 0.8;
+}
+
+a:hover {
+    opacity: 1;
+
 }
