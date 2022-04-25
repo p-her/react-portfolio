@@ -9,6 +9,8 @@ body{
     font-family: 'Indie Flower', cursive;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Source Code Pro', monospace;
+    position: relative;
+    min-height: 100vh;
 }
 
 
@@ -43,29 +45,18 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    
-   
- 
 }
 
 .avatar-icon, .about-me-header, .about-me-body{
     margin: 10px;
- 
-   
-
 }
 
 .about-me-body{
-
- 
-
     inline-size: 350px;
     text-align: justify;
     text-justify: inter-word;
+    padding-bottom: 90px;
 }
-
-
 /* end About page */
 
 
@@ -73,26 +64,105 @@ body{
 .resume-page{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* justify-items: center; */
+    text-align: center;
+ 
+    /* border: 1px solid black; */
+ 
 
 }
 
+.resume-header {
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.resume-body {
+    margin-bottom: 20px;
+
+    border: 1px solid black;
+    margin: 10px 200px;
+    background-color: #292961;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.resume-backend {
+    margin-bottom: 100px;
+    background-color: #292961;
+    border-radius: 5px;
+    color: white;
+    margin: 10px 200px 150px;
+}
+
+.resume-body-content {
+    margin: 15px 0;
+}
 
 /* end Resume page */
 
+
+
+/* start Contact Form */
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+
+}
+
+.contact-form {
+    float: left;
+ 
+}
+
+
+.button {
+    background-color: #1e6deb;
+    border-radius: 5px ;
+    color: white;
+}
+
+.button:hover{
+    background-color:#1e56eb ;
+}
+/* end Contact Form */
+
 .footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    height: 60px;
-    width: 100%;
-    border-top: 1px solid lightgray;
+
+
     display: flex;
     justify-content: center;
+   
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    padding-top: 30px;
+    border-top: 1px solid gray;
+
+
 }
 
 .icons{
-    margin-top: 15px;
+    /* margin-top: 15px; */
+    padding-bottom: 1.0rem;
     color: #292961;
+
+}
+
+.footer-mg {
+    padding-bottom: 120px;
+}
+
+
+
+
+input[type=text],input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
 }

@@ -51,8 +51,8 @@ function Contact() {
     }
 
     return (
-        <section>
-            <h1 data-testid="h1tag">Contact me</h1>
+        <section className="contact-section">
+            <h1 className="h1tag ">Contact me</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
@@ -64,7 +64,7 @@ function Contact() {
                 </div>
                 <div>
                     <label htmlFor="message">Message:</label>
-                    <textarea name="message" rows="5" onChange={handleChange} defaultValue={message}/>
+                    <textarea name="message"  onChange={handleChange} defaultValue={message}/>
                 </div>
              
                 {/* {errorMessage && (
@@ -76,7 +76,7 @@ function Contact() {
           
 
             
-                    <button data-testid="button" type="submit">Submit</button>
+                    <button className="button" type="submit">Submit</button>
              
             </form>
         </section>
